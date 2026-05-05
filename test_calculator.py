@@ -1,5 +1,5 @@
 from calculator import add, subract, multiply, divide
-from calculator import minNumber, evenNumber
+from calculator import minNumber, evenNumber, temperatureCtoF, temperatureFtoC
 
 # def test_divide():
 #     assert divide(8,0) == print("it's not possible to divide by 0")
@@ -15,3 +15,9 @@ def test_minNumber():
 
 def test_evenNumber():
     assert evenNumber(5) == False
+
+def test_celsius():
+    assert temperatureCtoF(25) == 77.0
+
+# def test_fahrenheit():
+#     assert temperatureCtoF(68) == 20.0

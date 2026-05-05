@@ -28,3 +28,9 @@ def evenNumber(a):
         return True
     else:
         return False
+    
+def temperatureCtoF(c):
+    return (c * 9/5) + 32
+
+def temperatureFtoC(f):
+    return (f - 32) * 5/9
