@@ -1,0 +1,22 @@
+tipos:
+* teste de regressão - teste se uma inclusão no sistema impacta nas demais funcionalidades
+* teste beta - teste com o usuário
+* teste alfa - teste da equipe
+* teste de aceitação - cliente final
+* teste de sistema - desenvolvedores
+* teste de integração - se os módulos funcionam entre eles
+* teste de unidade - se a unidade isolada funciona
+
+técnicas:
+* caixa branca - consegue enxergar a estrutura do codigo e analisar apos um teste ou em durante o desenvolvimento
+* caixa preta - interface (sem código)
+
+erro - ação humana
+defeito - causa
+falha - resultado
+
+caso de teste: descreve o que será testado, como e qual o resultado esperado
+baseado em requisitos e deve testar erros também
+
+validação: foco no produto final, na entrega
+verificar: examinar software esta sendo desenvolvido de acordo com o design desde as fases iniciais
